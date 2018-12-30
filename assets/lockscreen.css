@@ -1,0 +1,20 @@
+body {
+    background: slategray;
+    color: white;
+    line-height: 1.7em;
+    text-align: left;
+}
+
+.lockPopupDiv {
+    margin: auto;
+    padding: 10px;
+    border: 2px solid black;
+    height: 100px;
+    width: 500px;
+}
+
+.inputPassword {
+    text-align: center;
+    position: relative;
+    left: 150px;
+}
