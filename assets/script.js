@@ -1,7 +1,7 @@
 const lockPopup = () => {
     let $lockPopupDiv = $('<div>').addClass('lockPopupDiv').html('<p style="text-align:center;font-size:20px;font-family:Courier;">Insert Password to view the page</p>').appendTo($('.wrapper'));
     generatePassKey(randomArrkey);
-    console.log("lockpopuppp:::::::::::::::", $('.wrapper'));
+    // console.log("lockpopuppp:::::::::::::::", $('.wrapper'));
     let $passwordInput = $("<input/>", {
         type: 'password',
         class: 'inputPassword',
@@ -27,7 +27,7 @@ const getValue = () => {
 }
 
 const loadScreen = () => {
-    console.log("loadscreen invoked");
+    // console.log("loadscreen invoked");
 }
 
 window.onload = () => {
